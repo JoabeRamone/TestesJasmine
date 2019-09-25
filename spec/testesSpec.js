@@ -1,4 +1,4 @@
-describe("Teste (specs)", function(){
+describe('Teste (specs)', function(){
     it("Deve garantir que 'true' é 'true'", () => {
         
     });
