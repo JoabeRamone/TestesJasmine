@@ -17,5 +17,5 @@ describe('Teste do beforeAll', () => {
 
     it('deve garantir valor 12 para o contador', () => {
         expect(contador).toEqual(12);
-    })
+    });
 });

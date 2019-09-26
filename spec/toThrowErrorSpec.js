@@ -5,7 +5,7 @@ describe('TEste do toThrowError', () => {
                 throw new TypeError("Deve ser maior que 0");
             }
             return n1 + n2;
-        }
+        };
 
         expect(function() { somar(0, 0 )}).toThrowError();
         expect(function() { somar(0, 0 )}).toThrowError("Deve ser maior que 0");
